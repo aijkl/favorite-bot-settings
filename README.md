@@ -1,0 +1,1 @@
+# favoritebot-settings
