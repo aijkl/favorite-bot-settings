@@ -12,8 +12,8 @@
   "favoriteGroups": [
     {
       "groupId": "world1",
-      "nickName": "いいね20件以上",
-      "twitterSearchQuery": "#VRChat_world紹介 min_faves:20",
+      "nickName": "いいね100件以上",
+      "twitterSearchQuery": "#VRChat_world紹介 min_faves:100",
       "needLink": false
     }
   ]
