@@ -1,9 +1,9 @@
 {
   "worldNameRegexCaptureName": "worldName",
   "worldNameRegexs": [
-    "\\p{Ps}*(ƒ[ƒ‹ƒh–¼|ƒ[ƒ‹ƒhĞ‰î|ƒ[ƒ‹ƒh|ƒ[ƒ‹ƒh|World–¼|World|world)[\\p{Po}\\p{Zs}\\p{Ps}]+(?<worldName>[^\\p{Ps}\\p{Pe}\\n]+)\\p{Pe}*",
+    "(^|\\p{Zs})\\p{Ps}*(ãƒ¯ãƒ¼ãƒ«ãƒ‰å|ãƒ¯ãƒ¼ãƒ«ãƒ‰ç´¹ä»‹|ãƒ¯ãƒ¼ãƒ«ãƒ‰|ãƒ¯ãƒ¼ãƒ«ãƒ‰|Worldå|World|world)[\\p{Po}\\p{Zs}\\p{Ps}]+(?<worldName>[^\\p{Ps}\\p{Pe}\\n]+)\\p{Pe}*",
     "[\\p{Po}\\p{Zs}\\p{Ps}]*(?<worldName>[^\\p{Ps}\\p{Pe}\\n(by)]{4,})[\\p{Po}\\p{Zs}\\p{Pe}]*by",
-    // ‚±‚ê‚ç‚ÍŠëŒ¯ÅŒã‚Éƒ}ƒbƒ`‚³‚¹‚é
+    // ã“ã‚Œã‚‰ã¯å±é™ºæœ€å¾Œã«ãƒãƒƒãƒã•ã›ã‚‹
     "\\p{Ps}(?<worldName>.+)\\p{Pe}"
   ],
   "worldIDRegexCaptureName": "worldId",
@@ -13,8 +13,8 @@
   "favoriteGroups": [
     {
       "groupId": "world1",
-      "nickName": "‚¢‚¢‚Ë20ŒˆÈã",
-      "twitterSearchQuery": "#VRChat_worldĞ‰î min_faves:20",
+      "nickName": "ã„ã„ã­20ä»¶ä»¥ä¸Š",
+      "twitterSearchQuery": "#VRChat_worldç´¹ä»‹ min_faves:20",
       "needLink": false
     }
   ]
