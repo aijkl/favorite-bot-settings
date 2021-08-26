@@ -2,7 +2,7 @@
   "worldNameRegexCaptureName": "worldName",
   "worldNameRegexs": [
     "(^|\\p{Zs})\\p{Ps}*(ワールド名|ワールド紹介|ワールド|ワールド|World名|World|world)[\\p{Po}\\p{Zs}\\p{Ps}]+(?<worldName>[^\\p{Ps}\\p{Pe}\\n]+)\\p{Pe}*",
-    "[\\p{Po}\\p{Zs}\\p{Ps}]*(?<worldName>[^\\p{Ps}\\p{Pe}\\n(by)]{4,})[\\p{Po}\\p{Zs}\\p{Pe}]*by",    
+    "[\\p{Po}\\p{Zs}\\p{Ps}]*(?<worldName>[^\\p{Ps}\\p{Pe}\\n(by)]{4,})[\\p{Po}\\p{Zs}\\p{Pe}]*by"
     //"\\p{Ps}(?<worldName>.+)\\p{Pe}"
   ],
   "worldIDRegexCaptureName": "worldId",
