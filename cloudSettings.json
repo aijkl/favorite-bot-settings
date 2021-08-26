@@ -1,0 +1,21 @@
+{
+  "worldNameRegexCaptureName": "worldName",
+  "worldNameRegexs": [
+    "\\p{Ps}*(ワールド名|ワールド紹介|ワールド|ワールド|World名|World|world)[\\p{Po}\\p{Zs}\\p{Ps}]+(?<worldName>[^\\p{Ps}\\p{Pe}\\n]+)\\p{Pe}*",
+    "[\\p{Po}\\p{Zs}\\p{Ps}]*(?<worldName>[^\\p{Ps}\\p{Pe}\\n(by)]{4,})[\\p{Po}\\p{Zs}\\p{Pe}]*by",
+    // これらは危険最後にマッチさせる
+    "\\p{Ps}(?<worldName>.+)\\p{Pe}"
+  ],
+  "worldIDRegexCaptureName": "worldId",
+  "worldIdRegexs": [
+    ".*(?<worldId>wrld_[0-9a-f]{8}(-[0-9a-f]{4}){3}-[0-9a-f]{12})"
+  ],
+  "favoriteGroups": [
+    {
+      "groupId": "world1",
+      "nickName": "いいね20件以上",
+      "twitterSearchQuery": "#VRChat_world紹介 min_faves:20",
+      "needLink": false
+    }
+  ]
+}
