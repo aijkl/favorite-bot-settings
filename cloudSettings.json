@@ -14,7 +14,7 @@
     {
       "groupId": "world1",
       "nickName": "いいね30件以上",
-      "twitterSearchQuery": "#VRChat_world紹介 min_faves:30",
+      "twitterSearchQuery": "#VRChat_world紹介 filter:images -rt -filter:replies min_faves:30",
       "needLink": false
     }
   ]
