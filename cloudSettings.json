@@ -13,20 +13,12 @@
   "worldIdRegexs": [
     ".*(?<worldId>wrld_[0-9a-f]{8}(-[0-9a-f]{4}){3}-[0-9a-f]{12})"
   ],
-  "favoriteGroups": [
-    {
-      "groupId": "world1",
-      "nickName": "いいね40件以上",
-      "twitterSearchQuery": "#VRChat_world紹介 filter:images -rt -filter:replies min_faves:40",
-      "needLink": false
-    },
-    {
-      "groupId": "world2",
-      "nickName": "いいね30件以上",
-      "twitterSearchQuery": "#VRChat_world紹介 filter:images -rt -filter:replies min_faves:30",
-      "needLink": false
-    }
-  ]
+  "favoriteGroup": {
+    "groupId": "world1",
+    "nickName": "いいね40件以上",
+    "twitterSearchQuery": "#VRChat_world紹介 filter:images -rt -filter:replies min_faves:40",
+    "needLink": false
+  }
 }
 
 
