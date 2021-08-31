@@ -2,6 +2,7 @@
   "updateIntervalMs": 50000,
   "fetchIntervalMs": 1000,
   "favoriteIntervalMs": 3000,
+  "acceptableElapsedDays": "120",
   "worldNameRegexCaptureName": "worldName",
   "worldNameRegexs": [
     "(^|\\p{Zs})\\p{Ps}*(ワールド名|ワールド紹介|ワールド|ワールド|World名|World|world)[\\p{Po}\\p{Zs}\\p{Ps}]+(?<worldName>[^\\p{Ps}\\p{Pe}\\n]+)\\p{Pe}*",
