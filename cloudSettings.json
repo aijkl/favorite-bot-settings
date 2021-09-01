@@ -20,7 +20,8 @@
     "groupId": "world1",
     "nickName": "いいね40件以上",
     "twitterSearchQuery": "#VRChat_world紹介 filter:images -rt -filter:replies min_faves:40",
-    "needLink": false
+    "needLink": false,
+    "sort": "recent"
   }
 }
 
