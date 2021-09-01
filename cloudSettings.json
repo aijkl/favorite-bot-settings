@@ -7,7 +7,7 @@
   "worldNameRegexs": [
     "(^|\\p{Zs})\\p{Ps}*(ワールド名|ワールド紹介|ワールド|ワールド|World名|World|world)[\\p{Po}\\p{Zs}\\p{Ps}]+(?<worldName>[^\\p{Ps}\\p{Pe}\\n]+)\\p{Pe}*",
     "[\\p{Po}\\p{Zs}\\p{Ps}]*(?<worldName>[^\\p{Ps}\\p{Pe}\\n]{6,})[\\p{Po}\\p{Zs}\\p{P}]*by",
-    "(?<worldName>[^\\p{Ps}\\p{Pe}\\n]+)(を|に|\\p{Zs}*)(コミュニティ|ラボ|VRChat|Lab|Community)",
+    "^(?<worldName>[^\\p{Ps}\\p{Pe}\\n]+)(を|に|\\p{Zs}*)(コミュニティ|ラボ|Lab|Community)",
     "(?<worldName>[^\\p{Ps}\\p{Pe}\\n]*\\n)(^|\\p{Zs})\\p{Ps}*(作者|Author)[\\p{Po}\\p{Zs}\\p{Ps}]+([^\\p{Ps}\\p{Pe}\\n]+)\\p{Pe}*",
     "\\p{Ps}(?<worldName>.+)\\p{Pe}"
   ],
