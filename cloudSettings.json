@@ -1,6 +1,6 @@
 {
-  "updateIntervalMs": 50000,
-  "fetchIntervalMs": 1000,
+  "updateIntervalMs": 1800000,
+  "fetchIntervalMs": 3000,
   "favoriteIntervalMs": 3000,
   "acceptableElapsedDays": "300",
   "worldNameRegexCaptureName": "worldName",
@@ -9,8 +9,7 @@
     "[\\p{Po}\\p{Zs}\\p{Ps}]*(?<worldName>[^\\p{Ps}\\p{Pe}\\n]{6,})[\\p{Po}\\p{Zs}\\p{P}]*by",
     "^(?<worldName>[^\\p{Ps}\\p{Pe}\\n]+)(を|に|\\p{Zs}*)(コミュニティ|ラボ|Lab|Community)",
     "(?<worldName>[^\\p{Ps}\\p{Pe}\\n]*\\n)(^|\\p{Zs})\\p{Ps}*(作者|Author)[\\p{Po}\\p{Zs}\\p{Ps}]+([^\\p{Ps}\\p{Pe}\\n]+)\\p{Pe}*",
-    "\\p{Ps}(?<worldName>(.{1,}(World|ワールド)|(?!.*(World)).*))\\p{Pe}"
-    //やばいぐらい汚い
+    "\\p{Ps}(?<worldName>(.{1,}(World|ワールド)|(?!.*(World)).*))\\p{Pe}"    
   ],
   "worldIDRegexCaptureName": "worldId",
   "worldIdRegexs": [
