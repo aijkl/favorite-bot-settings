@@ -8,8 +8,9 @@
     "(^|\\p{Zs})\\p{Ps}*\\p{Ps}*(ワールド名|ワールド紹介|ワールド|ワールド|World名|World|world)\\p{Pe}*[\\p{Po}\\p{Zs}\\p{Ps}]+(?<worldName>[^\\p{Ps}\\p{Pe}\\n]+)\\p{Pe}*",
     "[\\p{Po}\\p{Zs}\\p{Ps}]*(?<worldName>[^\\p{Ps}\\p{Pe}\\n]{6,})[\\p{Po}\\p{Zs}\\p{P}]*by",
     "^(?<worldName>[^\\p{Ps}\\p{Pe}\\n]+)(を|に|\\p{Zs}*)(コミュニティ|ラボ|Lab|Community)",
-    "(?<worldName>[^\\p{Ps}\\p{Pe}\\n]*\\n)(^|\\p{Zs})\\p{Ps}*(作者|Author)[\\p{Po}\\p{Zs}\\p{Ps}]+([^\\p{Ps}\\p{Pe}\\n]+)\\p{Pe}*",
-    "\\p{Ps}(?<worldName>(.{1,}(World|ワールド)|(?!.*(World|#.*)).*))\\p{Pe}"
+    "(?<worldName>[^\\p{Ps}\\p{Pe}\\n]*\\n)(^|\\p{Zs})\\p{Ps}*(作者|Author)[\\p{Po}\\p{Zs}\\p{Ps}]+([^\\p{Ps}\\p{Pe}\\n]+)\\p{Pe}*"
+    //,
+    //"\\p{Ps}(?<worldName>(.{1,}(World|ワールド)|(?!.*(World|#.*)).*))\\p{Pe}"
   ],
   "worldIDRegexCaptureName": "worldId",
   "worldIdRegexs": [
@@ -17,8 +18,8 @@
   ],
   "favoriteGroup": {
     "groupId": "world1",
-    "nickName": "いいね100件以上",
-    "twitterSearchQuery": "#VRChat_world紹介 -rt -filter:replies min_faves:100 -#おはようVtuber",
+    "nickName": "いいね40件以上",
+    "twitterSearchQuery": "#VRChat_world紹介 -rt -filter:replies min_faves:40 -#おはようVtuber",
     "needLink": false,
     "sort": "recent"
   }
