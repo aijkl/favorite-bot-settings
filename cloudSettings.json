@@ -3,7 +3,7 @@
   "fetchIntervalMs": 3000,
   "favoriteIntervalMs": 3000,
   "acceptableElapsedDays": "720",
-  "minWorldLength": 6,
+  "minWorldLength": 90,
   "worldNameRegexCaptureName": "worldName",
   "urlRegex": "http(s)?://([\\w-]+\\.)+[\\w-]+(/[\\w- ./?%&=]*)?",
   "languageApiFilterRegex": "\\p{Ps}(?<worldName>(.{1,}(World|ワールド)|(?!.*(World|#.*))[^\\p{Pe}]*))\\p{Pe}",
