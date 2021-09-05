@@ -5,6 +5,7 @@
   "acceptableElapsedDays": "300",
   "minWorldLength": 5,
   "worldNameRegexCaptureName": "worldName",
+  "urlRegex": "http(s)?://([\\w-]+\\.)+[\\w-]+(/[\\w- ./?%&=]*)?",
   "languageApiFilterRegex": "\\p{Ps}(?<worldName>(.{1,}(World|ワールド)|(?!.*(World|#.*))[^\\p{Pe}]*))\\p{Pe}",
   "worldNameRegexs": [
     "(^|\\p{Zs})\\p{Ps}*\\p{Ps}*(ワールド名|ワールド紹介|ワールド|ワールド|World名|World|world)\\p{Pe}*[\\p{Po}\\p{Zs}\\p{Ps}]+(?<worldName>[^\\p{Ps}\\p{Pe}\\n]+)\\p{Pe}*",
