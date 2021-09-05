@@ -20,7 +20,8 @@
   "favoriteGroup": {
     "groupId": "world1",
     "nickName": "いいね40件以上",
-    "twitterSearchQuery": "#VRChat_world紹介 lang:ja -rt -filter:replies min_faves:40 -#おはようVtuber",
+    "lang": "ja",
+    "twitterSearchQuery": "#VRChat_world紹介 filter:images -rt -filter:replies min_faves:40 -#おはようVtuber",
     "needLink": false,
     "sort": "recent"
   }
