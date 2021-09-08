@@ -21,7 +21,7 @@
     "groupId": "worlds2",
     "nickName": "いいね30件以上",
     "lang": "ja",
-    "twitterSearchQuery": "#VRChat_world紹介 filter:images -rt -filter:replies min_faves:30 -#おはようVtuber",
+    "twitterSearchQuery": "#VRChat_world紹介 filter:images -rt -filter:replies min_faves:50 -#おはようVtuber",
     "needLink": false,
     "sort": "recent"
   }
