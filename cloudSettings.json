@@ -18,7 +18,7 @@
     ".*(?<worldId>wrld_[0-9a-f]{8}(-[0-9a-f]{4}){3}-[0-9a-f]{12})"
   ],
   "favoriteGroup": {
-    "groupId": "world2",
+    "groupId": "worlds2",
     "nickName": "いいね30件以上",
     "lang": "ja",
     "twitterSearchQuery": "#VRChat_world紹介 filter:images -rt -filter:replies min_faves:30 -#おはようVtuber",
