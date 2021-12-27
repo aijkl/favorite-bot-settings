@@ -1,33 +1,34 @@
 {
-  "updateIntervalMs": 1800000,
-  "fetchIntervalMs": 10000,
-  "favoriteIntervalMs": 20000,
-  "acceptableElapsedDays": 365,
-  "minWorldLength": 6,
-  "worldNameRegexCaptureName": "worldName",
-  "urlRegex": "http(s)?://([\\w-]+\\.)+[\\w-]+(/[\\w- ./?%&=]*)?",
-  "languageApiFilterRegex": "\\p{Ps}(?<worldName>(.{1,}(World|ワールド)|(?!.*(World|#.*))[^\\p{Pe}]*))\\p{Pe}",
-  "worldNameRegexs": [
-    "(^|\\p{Zs})\\p{Ps}*\\p{Ps}*(ワールド名|ワールド紹介|ワールド|ワールド|World名|World|world)\\p{Pe}*[\\p{Po}\\p{Zs}\\p{Ps}]+(?<worldName>[^\\p{Ps}\\p{Pe}\\n]+)\\p{Pe}*",
-    "[\\p{Po}\\p{Zs}\\p{Ps}]*(?<worldName>[^\\p{Ps}\\p{Pe}\\n]{6,})[\\p{Po}\\p{Zs}\\p{P}]*by",
-    "^(?<worldName>[^\\p{Ps}\\p{Pe}\\n]+)(を|に|\\p{Zs}*)(コミュニティ|ラボ|Lab|Community)",
-    "\\p{Ps}*(?<worldName>[^\\p{Ps}\\p{Pe}\\n]*)\\p{Pe}*\\n*(^|\\p{Zs}*)\\p{Ps}*(作者|Author)[\\p{Po}\\p{Zs}\\p{Ps}]*([^\\p{Ps}\\p{Pe}\\n]*)\\p{Pe}*"
-  ],
-  "worldIDRegexCaptureName": "worldId",
-  "worldIdRegexs": [
-    ".*(?<worldId>wrld_[0-9a-f]{8}(-[0-9a-f]{4}){3}-[0-9a-f]{12})"
-  ],
-  "blokedWorldIds":[
-    "wrld_d806b413-ed80-4472-a2a7-d591cd1ee32c"
-  ],
-  "favoriteGroup": {
-    "groupId": "world1",
-    "nickName": "いいね30件以上",
-    "lang": "ja",
-    "twitterSearchQuery": "#VRChat_world紹介 filter:images -rt -filter:replies min_faves:30 -#おはようVtuber",
-    "needLink": false,
-    "sort": "recent"
-  }
+    "updateIntervalMs": 1800000,
+    "fetchIntervalMs": 10000,
+    "favoriteIntervalMs": 20000,
+    "acceptableElapsedDays": 365,
+    "minWorldLength": 6,
+    "worldNameRegexCaptureName": "worldName",
+    "urlRegex": "http(s)?://([\\w-]+\\.)+[\\w-]+(/[\\w- ./?%&=]*)?",
+    "languageApiFilterRegex": "\\p{Ps}(?<worldName>(.{1,}(World|ワールド)|(?!.*(World|#.*))[^\\p{Pe}]*))\\p{Pe}",
+    "worldNameRegexs": [
+        "(^|\\p{Zs})\\p{Ps}*\\p{Ps}*(ワールド名|ワールド紹介|ワールド|ワールド|World名|World|world)\\p{Pe}*[\\p{Po}\\p{Zs}\\p{Ps}]+(?<worldName>[^\\p{Ps}\\p{Pe}\\n]+)\\p{Pe}*",
+        "[\\p{Po}\\p{Zs}\\p{Ps}]*(?<worldName>[^\\p{Ps}\\p{Pe}\\n]{6,})[\\p{Po}\\p{Zs}\\p{P}]*by",
+        "^(?<worldName>[^\\p{Ps}\\p{Pe}\\n]+)(を|に|\\p{Zs}*)(コミュニティ|ラボ|Lab|Community)",
+        "\\p{Ps}*(?<worldName>[^\\p{Ps}\\p{Pe}\\n]*)\\p{Pe}*\\n*(^|\\p{Zs}*)\\p{Ps}*(作者|Author)[\\p{Po}\\p{Zs}\\p{Ps}]*([^\\p{Ps}\\p{Pe}\\n]*)\\p{Pe}*"
+    ],
+    "worldIDRegexCaptureName": "worldId",
+    "worldIdRegexs": [
+        ".*(?<worldId>wrld_[0-9a-f]{8}(-[0-9a-f]{4}){3}-[0-9a-f]{12})"
+    ],
+    "favoriteGroup": {
+        "groupId": "world1",
+        "nickName": "いいね30件以上",
+        "lang": "ja",
+        "twitterSearchQuery": "#VRChat_world紹介 filter:images -rt -filter:replies min_faves:30 -#おはようVtuber",
+        "needLink": false,
+        "sort": "recent"
+    },
+    "blackList": {
+        "worldIds": [
+          "wrld_d806b413-ed80-4472-a2a7-d591cd1ee32c",
+          "wrld_94ef6736-f998-4099-b456-b3a444734013"          
+        ]
+    }
 }
-
-
