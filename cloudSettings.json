@@ -1,8 +1,8 @@
 {
   "updateIntervalMs": 1800000,
-  "fetchIntervalMs": 5000,
-  "favoriteIntervalMs": 10000,
-  "acceptableElapsedDays": "3060",
+  "fetchIntervalMs": 10000,
+  "favoriteIntervalMs": 20000,
+  "acceptableElapsedDays": "65,
   "minWorldLength": 6,
   "worldNameRegexCaptureName": "worldName",
   "urlRegex": "http(s)?://([\\w-]+\\.)+[\\w-]+(/[\\w- ./?%&=]*)?",
