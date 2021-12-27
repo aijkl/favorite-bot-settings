@@ -1,7 +1,7 @@
 {
   "updateIntervalMs": 1800000,
-  "fetchIntervalMs": 3000,
-  "favoriteIntervalMs": 3000,
+  "fetchIntervalMs": 5000,
+  "favoriteIntervalMs": 10000,
   "acceptableElapsedDays": "3060",
   "minWorldLength": 6,
   "worldNameRegexCaptureName": "worldName",
