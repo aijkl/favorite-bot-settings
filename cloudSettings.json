@@ -17,6 +17,9 @@
   "worldIdRegexs": [
     ".*(?<worldId>wrld_[0-9a-f]{8}(-[0-9a-f]{4}){3}-[0-9a-f]{12})"
   ],
+  "blokedWorldIds":[
+    "wrld_d806b413-ed80-4472-a2a7-d591cd1ee32c"
+  ],
   "favoriteGroup": {
     "groupId": "world1",
     "nickName": "いいね30件以上",
