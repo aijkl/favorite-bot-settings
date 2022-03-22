@@ -1,5 +1,5 @@
 {
-    "updateIntervalMs": 18000000,
+    "updateIntervalMs": 3600000,
     "fetchIntervalMs": 1000,
     "favoriteIntervalMs": 2000,
     "acceptableElapsedDays": 365,
